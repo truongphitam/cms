@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    min-width: 320px;
+    background: #FFF;
+    font-family: Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 1.4285em;
+    color: rgba(0, 0, 0, .87);
+    font-smoothing: antialiased;
+}
+
+.lang-switch {
+    font: normal 0.8rem "Open Sans", sans-serif;
+    padding-left: 0;
+    margin: 0;
+    background-color: #32373c;
+    display: inline-block;
+}
+
+.lang-switch > li {
+    display: inline-block;
+}
+
+.lang-switch > li.active > a, .lang-switch > li.active > a:focus, .lang-switch > li.active > a:hover {
+    cursor: default;
+    background: #00bcd4;
+}
+
+.lang-switch > li > a {
+    display: block;
+    padding: 5px 8px;
+    color: white;
+}
+
+.content-header .breadcrumb {
+    float: left;
+    left: 10px;
+}
+
+p.help {
+    font-size: 13px;
+    font-style: italic;
+    margin: 2px 0 5px;
+    color: #666;
+}
+
+#list_gallery .form-group {
+    margin-bottom: 0px;
+}
+
+.p-r0 {
+    padding-right: 0px;
+}
+
+.p-l0 {
+    padding-left: 0px;
+}
+
+.item_galley:nth-child(4n+1) {
+    clear: both;
+}
