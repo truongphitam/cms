@@ -1,6 +1,6 @@
 <?php
 
-return array (
-  'failed' => 'These credentials do not match our records.',
-  'throttle' => 'Too many login attempts. Please try again in :seconds seconds.',
+return array(
+    'failed' => 'Thông tin tài khoản không tìm thấy trong hệ thống.',
+    'throttle' => 'Vượt quá số lần đăng nhập cho phép. Vui lòng thử lại sau :seconds giây.',
 );
